@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    text-align:center;
+    margin-top: 350px;
+}
+
+.panel {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+}
+
+.panel:hover{
+    box-shadow: inset 0px 0px 0px 5px chartreuse;
+    box-sizing: border-box;
+}
+
+.bottom-left-panel{
+    background-color: blue;
+    border-bottom-left-radius: 100%;
+}
+.bottom-right-panel{
+    background-color: deeppink;
+    border-bottom-right-radius: 100%;
+}
+.top-left-panel{
+    background-color: red;
+    border-top-left-radius: 100%;
+}
+.top-right-panel{
+    background-color: yellow;
+    border-top-right-radius: 100%;
+}
+
+.active{
+    background-color: white;
+}
+
+.center{
+    display: inline-block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: black;
+    top: 480px;
+    left: 995px
+}
